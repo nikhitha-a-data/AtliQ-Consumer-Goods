@@ -17,7 +17,7 @@ Executive Power BI dashboard tracking global consumer goods performance across R
 ## 📊 Dashboard Views
 
 ### Page 1: Sales Performance
-![Enterprise Sales Performance](./assets/Enterprise_Sales_Performance.png)
+![Enterprise Sales Performance](./Enterprise_Sales_Performance.png)
 
 ### Page 2: Division & Margin Analysis
-![Division and Margin Analysis](./assets/Division_Margin_Analysis.png)
+![Division and Margin Analysis](./Division_Margin_Analysis.png)
