@@ -27,7 +27,7 @@ View the complete SQL queries used for multi-year growth calculations, customer 
 ## 📊 Power BI Dashboard Views
 
 ### 1. Enterprise Sales Performance
-![Enterprise Sales Performance](./assets/Enterprise_Sales_Performance.png)
+![Enterprise Sales Performance](./Enterprise_Sales_Performance.png)
 
 ### 2. Division & Margin Analysis
-![Division and Margin Analysis](./assets/Division_Margin_Analysis.png)
+![Division and Margin Analysis](./Division_Margin_Analysis.png)
