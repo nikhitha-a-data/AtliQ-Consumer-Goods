@@ -1,26 +1,23 @@
-# 🛒 AtliQ Consumer Goods: Sales & Ad-Hoc Analytics Pipeline
+# AtLiQ Consumer Goods: Sales & Ad-Hoc Analytics
 
-**Tech Stack:** MySQL | Power BI | DAX | Power Query | Star Schema  
-**Source File:** [`Atliq_Consumer_Goods_Sales_Analytics.pbix`](./Atliq_Consumer_Goods_Sales_Analytics.pbix) *(Download to view interactive model locally)*
-
----
-
-## 📌 Executive Summary
-Built an enterprise analytics solution analyzing **$1.7B in Net Sales** across global electronics channels. The project combines a 2-page Power BI executive dashboard with optimized MySQL queries solving 10 critical ad-hoc business requests.
+## 🚀 Business Impact
+* **Scale:** Analyzed **$1.7B in Net Sales**, **334 products**, and **245 unique customers** globally.
+* **Profit Recovery:** Executed a specialized **Margin Leakage Analysis** to isolate high-discount distribution channels (e.g., Amazon) eating into net margins.
+* **Performance:** Delivered a production-grade 2-page Executive Sales Dashboard built on an optimized Star Schema.
 
 ---
 
-## 💡 Key Technical Highlights
-* **SQL Business Logic:** Engineered queries using CTEs, window functions (`DENSE_RANK`, `ROW_NUMBER`), conditional aggregation, and multi-table joins to analyze customer growth, segment trends, and quarterly sales.
-* **Star Schema Data Model:** Modeled transactional sales logs (`fact_sales_monthly`) linked to core dimension tables (`dim_customer`, `dim_product`, `dim_market`).
-* **Core Metrics Tracked:** Monitored **$1.7B Net Sales**, **61% Gross Margin**, **334 Products**, and **13.5% Peak Discount Rates**.
-* **Margin Leakage Analysis:** Identified high-volume accounts taking excessive promotional discounts (e.g., Amazon) to protect recurring profit margins.
+## 🛠️ Tech Stack & Architecture
+* **Database Engine:** MySQL (Complex Joins, Window Functions, Custom Ad-Hoc CTEs)
+* **Data Modeling:** Power BI Desktop & Power Query (Star Schema, Fact/Dimension structural design)
+* **Analytical Expressions:** Advanced DAX (Gross Margin %, Discount Target Deviations)
 
 ---
 
-## 📜 SQL Ad-Hoc Analytics Scripts
-View the complete SQL queries used for multi-year growth calculations, customer rankings, and product segment breakdowns:
-* 📄 **[`queries.sql`](./queries.sql)** — Includes CTEs, window functions, and rank algorithms for executive request fulfillment.
+## 📂 Repository Artifacts
+* 📊 **[Atliq_Consumer_Goods_Sales_Analytics.pbix](./Atliq_Consumer_Goods_Sales_Analytics.pbix)** — Interactive BI Model
+* 📜 **[queries.sql](./queries.sql)** — High-performance SQL scripts solving 10 critical executive metrics
+
 
 ---
 
